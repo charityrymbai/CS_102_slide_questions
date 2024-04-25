@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    printf("\nnThe words in alphabetical order are as follows: \n");
+    printf("\nThe words in alphabetical order are as follows: \n");
     for (int i = 0; i < n; i++) {
         printf("%s\n", place[i]);
     }
