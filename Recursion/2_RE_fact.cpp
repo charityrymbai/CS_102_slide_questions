@@ -1,4 +1,4 @@
-// Q1. Write a C program to print n Fibonacci series for n terms using
+// Q1. Write a C program to get factorial of n using
 // recursive function.
 
 #include<stdio.h>
