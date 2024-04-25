@@ -12,9 +12,14 @@ void swapstr(char s1[20], char s2[20]) {
 }
 
 int main() {
-    int n = 7;
-    char place[n][20] = { "a", "abc", "bcd", "abd", "charity",
-"z", "arun" };
+    int n;
+    printf("Enter the no of words: ");
+    scanf("%d", &n);
+    printf("Enter the words: ");
+    char place[n][20];
+    for (int i = 0;i < n; i++) {
+        scanf("%s", place[i]);
+    }
 
     for (int i = n; i > 0; i--) {
         for (int j = 0; j < n - 1; j++) {
@@ -23,8 +28,9 @@ int main() {
             }
         }
     }
+
+    printf("\nnThe words in alphabetical order are as follows: \n");
     for (int i = 0; i < n; i++) {
-        // for (int j = 0; j < n; j++)
         printf("%s\n", place[i]);
     }
 
