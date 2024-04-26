@@ -1,3 +1,6 @@
+// Q2. Write a C program to multiply two matrix using function (one function to read an
+// array and another function to multiply and another to print)
+
 #include<stdio.h>
 
 void scanArr(int arr[10][10], int  r, int  c);

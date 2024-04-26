@@ -1,3 +1,6 @@
+// 5. C program to create an integer array and store
+// the EVEN and ODD elements in a different array
+
 #include<stdio.h>
 int main() {
     int n1;

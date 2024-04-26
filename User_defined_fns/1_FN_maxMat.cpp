@@ -1,3 +1,7 @@
+// Q1. Write a C program to find the largest element of a matrix using function (one
+// function to read an array and another function to find the largest element and another
+// to print)
+
 #include<stdio.h>
 
 void scanArr(int arr[10][10], int  r, int  c);

@@ -1,4 +1,4 @@
-// C program to reverse the elements of an stray.
+// C program to check if a string is a palindrome
 
 
 #include<stdio.h>

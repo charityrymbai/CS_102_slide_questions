@@ -1,3 +1,5 @@
+// 4. C program to replace all EVEN elements by 0 and Odd by 1 in One Dimensional Array
+
 #include<stdio.h>
 int main() {
     int n1;

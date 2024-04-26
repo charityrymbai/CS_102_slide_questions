@@ -1,3 +1,6 @@
+// 3. C program to create a new array from a given array with the elements divisible by a specific
+// number
+
 #include<stdio.h>
 int main() {
     int n1, num, count = 0;

@@ -1,3 +1,6 @@
+// Q3. Write a C program to find the sum of principal diagonal using function (one
+// function to read an array and one function to find the sum and another to print)
+
 #include<stdio.h>
 
 void scanArr(int arr[10][10], int  r, int  c);

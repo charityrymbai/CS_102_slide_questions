@@ -1,3 +1,7 @@
+// 9. In preparing the calendar for a year we need to know whether that particular year is leap year or
+// not. Design a function that receives the year as parameter and returns whether the year is leap year
+// or not.
+
 #include<stdio.h>
 
 int isLeapYear(int year);

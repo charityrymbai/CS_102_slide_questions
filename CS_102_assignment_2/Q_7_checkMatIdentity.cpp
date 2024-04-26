@@ -1,3 +1,5 @@
+// 7. C program to check a given matrix is an identity matrix or not
+
 #include<stdio.h>
 int main() {
     int n1;

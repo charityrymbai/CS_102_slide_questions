@@ -1,3 +1,5 @@
+// 6. C program to check two matrices are identical or not
+
 #include<stdio.h>
 
 int main() {

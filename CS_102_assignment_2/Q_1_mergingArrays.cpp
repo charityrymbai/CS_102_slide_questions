@@ -1,3 +1,5 @@
+// 1. C program to merge two arrays in third array.
+
 #include<stdio.h>
 
 int main() {

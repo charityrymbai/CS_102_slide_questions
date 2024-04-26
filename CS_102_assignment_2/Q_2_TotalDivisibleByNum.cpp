@@ -1,3 +1,6 @@
+// 2. C program to count total number of elements
+// divisible by a specific number in an array
+
 #include<stdio.h>
 
 int main() {

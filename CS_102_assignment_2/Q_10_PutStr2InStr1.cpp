@@ -1,3 +1,6 @@
+// 10.Design a function that takes two strings s1 and s2 and one integer value m as parameters and
+// inserts the string s2 into s1 immediately after the index m.
+
 #include<stdio.h>
 #include<string.h>
 
