@@ -28,8 +28,12 @@ int main() {
     printArr(mat2, r2, c2);
 
     int ans[10][10];
+    if (matMultiply(ans, mat1, mat2, r1, c1, r2, c2) == 0) {
+        return 0;
+    }
     matMultiply(ans, mat1, mat2, r1, c1, r2, c2);
 
+    printf("\nMatrix after multiplication:\n");
     printArr(ans, r1, c2);
 
     return 0;
@@ -46,7 +50,7 @@ void scanArr(int arr[10][10], int  r, int  c) {
 }
 
 int matMultiply(int ans[10][10], int mat1[10][10], int mat2[10][10], int r1, int c1, int r2, int c2) {
-    if (c2 != r1) {
+    if (c1 != r2) {
         printf("\nMatrices cannot be multiplied!!!");
         return 0;
     }
@@ -63,6 +67,7 @@ int matMultiply(int ans[10][10], int mat1[10][10], int mat2[10][10], int r1, int
         }
     }
 
+    return 1;
 }
 
 void printArr(int arr[10][10], int  r, int  c) {
