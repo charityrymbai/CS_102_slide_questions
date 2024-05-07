@@ -10,7 +10,7 @@ int main() {
         char name[30];
         float cgpa;
         long long phNo;
-    }student;
+    } student;
 
     int n;
     printf("Enter the no of students: ");
@@ -20,7 +20,7 @@ int main() {
     printf("Enter details as follows: roll, name, cgpa, phone no.\n");
     for (int i = 0; i < n; i++) {
         printf("Enter the details of student %d: ", i + 1);
-        scanf("%d%s%f%lld", &record[i].roll, &record[i].name, &record[i].cgpa, &record[i].phNo);
+        scanf("%d%s%f%lld", &record[i].roll, record[i].name, &record[i].cgpa, &record[i].phNo);
     }
 
     int maxCgpa = record[0].cgpa;
@@ -35,4 +35,6 @@ int main() {
 
     printf("\nStudent %d have the highest Cgpa:", studentNo + 1);
     printf("\nDetails are: \nRoll: %d\nName: %s\nCgpa: %f\nPh no: %lld", record[studentNo].roll, record[studentNo].name, record[studentNo].cgpa, record[studentNo].phNo);
+
+    return 0;
 }
