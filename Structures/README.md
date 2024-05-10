@@ -8,3 +8,6 @@ AS - Passing the address of a structure to a function<br>
 # Class Questions
 
 Q1. Create a structure named book to store book details like title, author and price. Write a C Program to input for N books, find the most expensive and least expensive books and display their information<br>
+
+Q2. Create a structure named complex to represent a complex number with real and imaginary parts.
+Write a C program to add two complex number using function.<br>
