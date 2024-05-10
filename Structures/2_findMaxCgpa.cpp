@@ -4,13 +4,15 @@
 // show the student's details
 
 #include<stdio.h>
+typedef struct {
+    int roll;
+    char name[30];
+    float cgpa;
+    long long phNo;
+} student;
+
 int main() {
-    typedef struct {
-        int roll;
-        char name[30];
-        float cgpa;
-        long long phNo;
-    } student;
+
 
     int n;
     printf("Enter the no of students: ");
