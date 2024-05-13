@@ -10,8 +10,10 @@ int main() {
     printf("Enter the no of terms: ");
     scanf("%d", &n);
     for (int i = n; i > 0; i--) {
-        for (int j = i, count = 1; j > 0; j--, count++) {
+        int count = 1;
+        for (int j = i; j > 0; j--) {
             printf("\t%d", count);
+            count++;
         }
         printf("\n");
     }
