@@ -17,7 +17,7 @@ int main() {
             tabs--;
         }
         for (int j = 1; j <= count;j++) {
-            printf("\t%d", i);
+            printf("%d\t", i);
         }
         count += 2;
         printf("\n");
