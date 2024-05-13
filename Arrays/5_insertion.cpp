@@ -16,6 +16,11 @@ int main() {
     printf("\nEnter the number and the index to add it: ");
     scanf("%d%d", &num, &x);
 
+    if (x >= n || x < 0) {
+        printf("\nEnter valid index!!!!!");
+        return 0;
+    }
+
     printf("\nBefore insertion: \n");
     for (int i = 0; i < n; i++) {
         printf("%d\t", arr[i]);
