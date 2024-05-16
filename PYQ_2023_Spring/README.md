@@ -11,3 +11,5 @@ Group B<br>
 
 Q4. h. Write a C program to print the summation of first N terms of the given series. Value of N will be entered by the user.<br>
 1-(1/2)+(1/3)-(1/4)+...
+
+Q4. c. Write a C program to design a calculator to perform arithmetic operation using switch case.
